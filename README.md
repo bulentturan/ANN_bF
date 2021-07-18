@@ -1,2 +1,8 @@
 # ANN_bF
 ANN Based Removal for Salt and Pepper Noise
+
+Cited:
+B. Turan, 2021. ANN Based Removal for Salt and Pepper Noise, Global Conference on Engineering Research, GLOBCER'21, 2-4 June 2021. https://102e349c-d2f6-482e-b9b2-45b5c6d1dbf9.filesusr.com/ugd/e04d41_afb86d75cfb84935a0c0073fa5768c00.pdf
+
+Abstract:
+Salt and pepper noise (SPN) with high intensity are difficult to removal. Both spatial and deep learning-based filters are used in SPN removal. However, according to the authors' information, there is no ANN-based filter for SPN removal. In this study, we propose an ANN-based SPN filter (ANN-bF). ANN network model was created by using the attributes of the nearest pixel values to the noisy pixel to be filtered. The features of 8 noiseless pixels closest to the noisy pixel were used in the creation of the training set. There are 3 attributes for each pixel. These are 1- the noise-free pixel value, 2- the distance in the x direction, 3- the distance in the y direction. A total of 24 attributes are used in the network input. The network output is the value of the noisy pixel before the noise is added (original value). The proposed method has been compared with Adaptive Riesz Mean Filter (ARmF), Different Adaptive Modified Riesz Mean Filter (DAMRmF), Adaptive Cesáro Mean Filter (ACmF), Improved Adaptive Weighted Mean Filter (IAWMF), Iterative Mean Filter (IMF). Comparison using Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index Map (SSIM), Image Enhancement Factor (IEF) quality metrics has been made. The ANN structure created gave better results than the state-of-the-art methods in removing SPN.
